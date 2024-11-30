@@ -1,7 +1,7 @@
 [
 	{
 		"name": "AI Drawing",
-		"description": "Create AI images.",
+		"description": "Optimize prompts for the best AI-generated images online.",
 		"image": "/assets/images/projects/ai-drawing.png",
 		"url": "https://ai-drawing.923828.xyz"
 	},
@@ -10,5 +10,11 @@
 		"description": "Keep discovering the best in AI.",
 		"image": "/assets/images/projects/ai1oo.png",
 		"url": "https://ai1oo.923828.xyz"
-	} 
+	},
+	{
+		"name": "Daily AI Image",
+		"description": "A daily line of ancient Chinese poetry, AI-generated images Powered by Flux.1",
+		"image": "/assets/images/projects/ai-flux.png",
+		"url": "https://ai.923828.xyz"
+	}
 ]
