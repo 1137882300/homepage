@@ -4,15 +4,15 @@
 		"url": "/"
 	},
 	{
+		"name": "Blog",
+		"url": "https://blog.923828.xyz"
+	},
+	{
 		"name": "Posts",
 		"url": "/posts"
 	},
 	{
 		"name": "Projects",
 		"url": "/projects"
-	},
-	{
-		"name": "About",
-		"url": "/about"
 	}
 ]

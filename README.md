@@ -1,13 +1,54 @@
-# Aria Template
+# Homepage Project
 
-This is a personal blog, portfolio, or blog template created for [Astro](https://astro.build).
+A modern static website built with Astro framework.
 
-Astro port of [aria](https://github.com/static-templates/aria).
+## Technology Stack
 
-![Aria Template Cover Photo](https://github.com/ccbikai/astro-aria/blob/main/public/assets/images/cover.png?raw=true)
+- Framework: Astro v4.8.2
+- Language: TypeScript
+- Styling: Tailwind CSS
+- Package Manager: pnpm v9.12.2
 
-You can install this theme with the [Astro](https://astro.build) command like so:
+## Project Structure
 
-```js
-npm create astro@latest -- --template ccbikai/astro-aria
+```
+/src
+├── assets/       # Static assets
+├── collections/  # Data collections
+├── components/   # Reusable components
+├── content/      # Content files
+├── layouts/      # Page layouts
+└── pages/        # Page components
+```
+
+## Development Tools
+
+- Code Quality: Biome
+- IDE: VS Code
+- CSS Enhancement: Tailwind Typography
+
+## Getting Started
+
+1. Install dependencies:
+```bash
+pnpm install
+```
+
+2. Available commands:
+```bash
+pnpm dev      # Start development server
+pnpm build    # Build for production
+pnpm preview  # Preview production build
+pnpm check    # Run code checks
+```
+
+## Development
+
+The project uses Astro's recommended project structure with TypeScript support. All source code is located in the `/src` directory.
+
+git remote set-url origin https://github.com/airobus/homepage.git
+
+```bash
+pnpm install
+pnpm run dev
 ```
