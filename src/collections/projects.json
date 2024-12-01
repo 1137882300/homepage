@@ -14,7 +14,13 @@
 	{
 		"name": "Daily AI Image",
 		"description": "A daily line of ancient Chinese poetry, AI-generated images Powered by Flux.1",
-		"image": "/assets/images/projects/ai-flux.png",
+		"image": "/assets/images/projects/ai-flux.jpg",
 		"url": "https://ai.923828.xyz"
+	},
+	{
+		"name": "AI Translate",
+		"description": "A modern AI-powered translation web application built with Next.js, featuring a clean and intuitive UI inspired by Apple and Google design principles.",
+		"image": "/assets/images/projects/ai-translate.jpg",
+		"url": "https://ai-translate.923828.xyz"
 	}
 ]
