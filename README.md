@@ -63,14 +63,16 @@ The website uses multiple analytics solutions:
 </script>
 ```
 
-2. Vercel Analytics for privacy-focused web analytics. It's integrated using the `@vercel/analytics` package:
+2. Vercel Analytics and Speed Insights for monitoring website performance:
 
 ```astro
 // src/layouts/main.astro
 ---
 import Analytics from '@vercel/analytics/astro';
+import SpeedInsights from "@vercel/speed-insights/astro";
 ---
 <Analytics />
+<SpeedInsights />
 ```
 
 git remote set-url origin https://github.com/airobus/homepage.git
@@ -78,4 +80,3 @@ git remote set-url origin https://github.com/airobus/homepage.git
 ```bash
 pnpm install
 pnpm run dev
-```
