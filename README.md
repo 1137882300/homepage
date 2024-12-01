@@ -46,9 +46,25 @@ pnpm check    # Run code checks
 
 The project uses Astro's recommended project structure with TypeScript support. All source code is located in the `/src` directory.
 
+## Analytics
+
+The website uses Google Analytics 4 for tracking visitor data. The tracking code is automatically injected into all pages during build time through the `astro.config.mjs` configuration:
+
+```javascript
+// astro.config.mjs
+export default defineConfig({
+  vite: {
+    define: {
+      'import.meta.env.HEADER_INJECT': JSON.stringify(`
+        <!-- Google Analytics code -->
+      `)
+    }
+  }
+})
+```
+
 git remote set-url origin https://github.com/airobus/homepage.git
 
 ```bash
 pnpm install
 pnpm run dev
-```
