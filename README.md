@@ -50,19 +50,17 @@ The project uses Astro's recommended project structure with TypeScript support. 
 
 The website uses multiple analytics solutions:
 
-1. Google Analytics 4 for tracking visitor data. The tracking code is automatically injected into all pages during build time through the `astro.config.mjs` configuration:
+1. Google Analytics 4 for tracking visitor data. The tracking code is added directly in the main layout file:
 
-```javascript
-// astro.config.mjs
-export default defineConfig({
-  vite: {
-    define: {
-      'import.meta.env.HEADER_INJECT': JSON.stringify(`
-        <!-- Google Analytics code -->
-      `)
-    }
-  }
-})
+```astro
+// src/layouts/main.astro
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-3N5BFCW78H"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3N5BFCW78H');
+</script>
 ```
 
 2. Vercel Analytics for privacy-focused web analytics. It's integrated using the `@vercel/analytics` package:
@@ -80,3 +78,4 @@ git remote set-url origin https://github.com/airobus/homepage.git
 ```bash
 pnpm install
 pnpm run dev
+```
