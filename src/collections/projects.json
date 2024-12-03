@@ -22,5 +22,11 @@
 		"description": "A modern AI-powered translation web application built with Next.js, featuring a clean and intuitive UI inspired by Apple and Google design principles.",
 		"image": "/assets/images/projects/ai-translate.jpg",
 		"url": "https://ai-translate.923828.xyz"
+	},
+	{
+		"name": "Image Tools",
+		"description": "A collection of tools for image processing.",
+		"image": "/assets/images/projects/img-tools.png",
+		"url": "https://img-tools.923828.xyz"
 	}
 ]
