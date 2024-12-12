@@ -28,5 +28,11 @@
 		"description": "A collection of tools for image processing.",
 		"image": "/assets/images/projects/img-tools.png",
 		"url": "https://img-tools.923828.xyz"
+	},
+	{
+		"name": "Notion Plugin",
+		"description": "A simple temporary notepad browser extension that supports sending notes to Notion.",
+		"image": "/assets/images/projects/plug-quick-notes.png",
+		"url": "https://chromewebstore.google.com/detail/quick-notes/onaehngpbgcinmmimlpkemlidlacibnh"
 	}
 ]
